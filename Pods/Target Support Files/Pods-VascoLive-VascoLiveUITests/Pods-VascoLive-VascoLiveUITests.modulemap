@@ -1,0 +1,6 @@
+framework module Pods_VascoLive_VascoLiveUITests {
+  umbrella header "Pods-VascoLive-VascoLiveUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

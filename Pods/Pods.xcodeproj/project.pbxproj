@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56765D988B709A874F34AFF63AB03EAA /* Pods-VascoLiveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D3C0D33F250431290F198B76503148 /* Pods-VascoLiveTests-dummy.m */; };
+		76DA0BE3D3E1E55E7BD5AD36F4F319AE /* Pods-VascoLive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF11B28B10A28962D0C3D21B89BAAFE /* Pods-VascoLive-dummy.m */; };
+		932EFC854D39DFBF3CB922696B5B86A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BFFDCD917EFD1F1CEBD79C5C637D02BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA452E0601727E00706F2849BD52779E /* Pods-VascoLive-VascoLiveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A84BABCEE322C93FBF09BE182D306E /* Pods-VascoLive-VascoLiveUITests-dummy.m */; };
+		CFEAF3DCBF4290D5C6A78D3D5266934C /* Pods-VascoLive-VascoLiveUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B1B66751626BA0A123A37498E18858 /* Pods-VascoLive-VascoLiveUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D127188025553A44433279E899F6795A /* Pods-VascoLiveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C818D901AF26B100FE03B83825278984 /* Pods-VascoLiveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A6FFB8B97606E1694E84D0035198D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DC12065AF006A82109058215B6AB1694 /* Pods-VascoLive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73984DFCC9D222DCBCA2DFC0C1623817 /* Pods-VascoLive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7FDF609562DE4B33B8858F9FF370628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28608B7DFDAB9BAB745B8E3D6608B30;
+			remoteInfo = "Pods-VascoLive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14979E2720594270992C0016A7728287 /* Pods-VascoLive-VascoLiveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLive-VascoLiveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29D3C0D33F250431290F198B76503148 /* Pods-VascoLiveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VascoLiveTests-dummy.m"; sourceTree = "<group>"; };
+		30045D2032F49D36D508A0048F662732 /* Pods-VascoLive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VascoLive"; path = Pods_VascoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C4B5E582B7AD84FCC68EF780678ED7 /* Pods-VascoLive-VascoLiveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VascoLive-VascoLiveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DF11B28B10A28962D0C3D21B89BAAFE /* Pods-VascoLive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VascoLive-dummy.m"; sourceTree = "<group>"; };
+		43A84BABCEE322C93FBF09BE182D306E /* Pods-VascoLive-VascoLiveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VascoLive-VascoLiveUITests-dummy.m"; sourceTree = "<group>"; };
+		51B1B66751626BA0A123A37498E18858 /* Pods-VascoLive-VascoLiveUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VascoLive-VascoLiveUITests-umbrella.h"; sourceTree = "<group>"; };
+		57689CF10C568116C4C55656D6FBBB86 /* Pods-VascoLiveTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLiveTests-Info.plist"; sourceTree = "<group>"; };
+		5BD09440C1293B2CA5F76C70D1829219 /* Pods-VascoLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		65F24DD9FCFD389BC6A991A62982D7B8 /* Pods-VascoLive-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VascoLive-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6754126F97E77E11144CA58F52848F99 /* Pods-VascoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLive.debug.xcconfig"; sourceTree = "<group>"; };
+		6947708CC748426DCCAF3FB03FB6218C /* Pods-VascoLive-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLive-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C4281A4B2837F4A1D832B2FB1EC90E3 /* Pods-VascoLive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VascoLive.modulemap"; sourceTree = "<group>"; };
+		705C55BE02EE21F1377FD061F1733A26 /* Pods-VascoLive-VascoLiveUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VascoLive-VascoLiveUITests"; path = Pods_VascoLive_VascoLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73984DFCC9D222DCBCA2DFC0C1623817 /* Pods-VascoLive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VascoLive-umbrella.h"; sourceTree = "<group>"; };
+		740C26DDBBB13FCF806EAAA0F52CBEDA /* Pods-VascoLive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLive-Info.plist"; sourceTree = "<group>"; };
+		77484662951480DC945A0890B46537D9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLive-VascoLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C00BEFCE031F7C9C1F23895EC4063D8 /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLive-VascoLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84755185F5B77B21A781F82E68E272AF /* Pods-VascoLive-VascoLiveUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VascoLive-VascoLiveUITests.modulemap"; sourceTree = "<group>"; };
+		8F67371DF03535AE1016ED56B62650F5 /* Pods-VascoLiveTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VascoLiveTests"; path = Pods_VascoLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9325D7029A38B7F89972CAB2B14EF091 /* Pods-VascoLiveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLiveTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B71967342AA0E52E41EA825A3C29D187 /* Pods-VascoLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C818D901AF26B100FE03B83825278984 /* Pods-VascoLiveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VascoLiveTests-umbrella.h"; sourceTree = "<group>"; };
+		CDA833EE57A82A7AAC5FE9C9E281C95E /* Pods-VascoLive-VascoLiveUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VascoLive-VascoLiveUITests-Info.plist"; sourceTree = "<group>"; };
+		DBC9356A287D1497072E4211BACEB58D /* Pods-VascoLiveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VascoLiveTests.modulemap"; sourceTree = "<group>"; };
+		E218E3299B5B9919247EA330546C330E /* Pods-VascoLiveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VascoLiveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6A4071ED129C618C253F6F7C5F0DD20 /* Pods-VascoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VascoLive.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2876ABA622D1D25FAE0A425150825B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A6FFB8B97606E1694E84D0035198D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF290FB838C729E1E1DD19D324CE66A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFDCD917EFD1F1CEBD79C5C637D02BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD2F6AA2300F56CACC034E2A94441DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EFC854D39DFBF3CB922696B5B86A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096FAA86B7D12F0BA3B56C2878A8AF72 /* Pods-VascoLive-VascoLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84755185F5B77B21A781F82E68E272AF /* Pods-VascoLive-VascoLiveUITests.modulemap */,
+				30C4B5E582B7AD84FCC68EF780678ED7 /* Pods-VascoLive-VascoLiveUITests-acknowledgements.markdown */,
+				14979E2720594270992C0016A7728287 /* Pods-VascoLive-VascoLiveUITests-acknowledgements.plist */,
+				43A84BABCEE322C93FBF09BE182D306E /* Pods-VascoLive-VascoLiveUITests-dummy.m */,
+				CDA833EE57A82A7AAC5FE9C9E281C95E /* Pods-VascoLive-VascoLiveUITests-Info.plist */,
+				51B1B66751626BA0A123A37498E18858 /* Pods-VascoLive-VascoLiveUITests-umbrella.h */,
+				77484662951480DC945A0890B46537D9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */,
+				7C00BEFCE031F7C9C1F23895EC4063D8 /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */,
+			);
+			name = "Pods-VascoLive-VascoLiveUITests";
+			path = "Target Support Files/Pods-VascoLive-VascoLiveUITests";
+			sourceTree = "<group>";
+		};
+		1BF56C41DD9C8152974A24E1D3A49E88 /* Pods-VascoLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9356A287D1497072E4211BACEB58D /* Pods-VascoLiveTests.modulemap */,
+				E218E3299B5B9919247EA330546C330E /* Pods-VascoLiveTests-acknowledgements.markdown */,
+				9325D7029A38B7F89972CAB2B14EF091 /* Pods-VascoLiveTests-acknowledgements.plist */,
+				29D3C0D33F250431290F198B76503148 /* Pods-VascoLiveTests-dummy.m */,
+				57689CF10C568116C4C55656D6FBBB86 /* Pods-VascoLiveTests-Info.plist */,
+				C818D901AF26B100FE03B83825278984 /* Pods-VascoLiveTests-umbrella.h */,
+				B71967342AA0E52E41EA825A3C29D187 /* Pods-VascoLiveTests.debug.xcconfig */,
+				5BD09440C1293B2CA5F76C70D1829219 /* Pods-VascoLiveTests.release.xcconfig */,
+			);
+			name = "Pods-VascoLiveTests";
+			path = "Target Support Files/Pods-VascoLiveTests";
+			sourceTree = "<group>";
+		};
+		575EB1104BFCD14DA0C7C74D16349062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30045D2032F49D36D508A0048F662732 /* Pods-VascoLive */,
+				705C55BE02EE21F1377FD061F1733A26 /* Pods-VascoLive-VascoLiveUITests */,
+				8F67371DF03535AE1016ED56B62650F5 /* Pods-VascoLiveTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78058E276CBE7F6129DAF237BE6165EE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1FB01740E247492FFE0E0DC7F269B2 /* Pods-VascoLive */,
+				096FAA86B7D12F0BA3B56C2878A8AF72 /* Pods-VascoLive-VascoLiveUITests */,
+				1BF56C41DD9C8152974A24E1D3A49E88 /* Pods-VascoLiveTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BB1FB01740E247492FFE0E0DC7F269B2 /* Pods-VascoLive */ = {
+			isa = PBXGroup;
+			children = (
+				6C4281A4B2837F4A1D832B2FB1EC90E3 /* Pods-VascoLive.modulemap */,
+				65F24DD9FCFD389BC6A991A62982D7B8 /* Pods-VascoLive-acknowledgements.markdown */,
+				6947708CC748426DCCAF3FB03FB6218C /* Pods-VascoLive-acknowledgements.plist */,
+				3DF11B28B10A28962D0C3D21B89BAAFE /* Pods-VascoLive-dummy.m */,
+				740C26DDBBB13FCF806EAAA0F52CBEDA /* Pods-VascoLive-Info.plist */,
+				73984DFCC9D222DCBCA2DFC0C1623817 /* Pods-VascoLive-umbrella.h */,
+				6754126F97E77E11144CA58F52848F99 /* Pods-VascoLive.debug.xcconfig */,
+				E6A4071ED129C618C253F6F7C5F0DD20 /* Pods-VascoLive.release.xcconfig */,
+			);
+			name = "Pods-VascoLive";
+			path = "Target Support Files/Pods-VascoLive";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				575EB1104BFCD14DA0C7C74D16349062 /* Products */,
+				78058E276CBE7F6129DAF237BE6165EE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B6BA004EA60E9ECB6EA36885E4F9B75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEAF3DCBF4290D5C6A78D3D5266934C /* Pods-VascoLive-VascoLiveUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83250B030E040D4A7FA522C1638D88D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC12065AF006A82109058215B6AB1694 /* Pods-VascoLive-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78EB8C99B2CE879DB22019E8051D2D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D127188025553A44433279E899F6795A /* Pods-VascoLiveTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		098787FF46780B206563C0B26C590E11 /* Pods-VascoLive-VascoLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D78076C0CE2A3D0BEB1D4B4E9D4234 /* Build configuration list for PBXNativeTarget "Pods-VascoLive-VascoLiveUITests" */;
+			buildPhases = (
+				2B6BA004EA60E9ECB6EA36885E4F9B75 /* Headers */,
+				2536B78210BA8471F9D72650A15BC203 /* Sources */,
+				5D2876ABA622D1D25FAE0A425150825B /* Frameworks */,
+				07672B8A92727F4E60A2554DA61B6875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VascoLive-VascoLiveUITests";
+			productName = Pods_VascoLive_VascoLiveUITests;
+			productReference = 705C55BE02EE21F1377FD061F1733A26 /* Pods-VascoLive-VascoLiveUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C05ECE5252031AEA97C381DEFE7F38C0 /* Pods-VascoLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 268E43266B939552B0642D62A2471E2A /* Build configuration list for PBXNativeTarget "Pods-VascoLiveTests" */;
+			buildPhases = (
+				D78EB8C99B2CE879DB22019E8051D2D8 /* Headers */,
+				54676A8855FF7E003E076A08DBD147B0 /* Sources */,
+				AF290FB838C729E1E1DD19D324CE66A4 /* Frameworks */,
+				242028735C9CE9ADEFCDC951B37A0C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB3C9C7172B04009A797843043FA22F /* PBXTargetDependency */,
+			);
+			name = "Pods-VascoLiveTests";
+			productName = Pods_VascoLiveTests;
+			productReference = 8F67371DF03535AE1016ED56B62650F5 /* Pods-VascoLiveTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E28608B7DFDAB9BAB745B8E3D6608B30 /* Pods-VascoLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF964BD9477B4BC4014B8A3644689C2 /* Build configuration list for PBXNativeTarget "Pods-VascoLive" */;
+			buildPhases = (
+				83250B030E040D4A7FA522C1638D88D6 /* Headers */,
+				C3C1A68E175962AD7162C327D3F3748E /* Sources */,
+				BAD2F6AA2300F56CACC034E2A94441DB /* Frameworks */,
+				3696873726C142A05B4CAF4F719EBDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VascoLive";
+			productName = Pods_VascoLive;
+			productReference = 30045D2032F49D36D508A0048F662732 /* Pods-VascoLive */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 575EB1104BFCD14DA0C7C74D16349062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28608B7DFDAB9BAB745B8E3D6608B30 /* Pods-VascoLive */,
+				098787FF46780B206563C0B26C590E11 /* Pods-VascoLive-VascoLiveUITests */,
+				C05ECE5252031AEA97C381DEFE7F38C0 /* Pods-VascoLiveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07672B8A92727F4E60A2554DA61B6875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242028735C9CE9ADEFCDC951B37A0C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3696873726C142A05B4CAF4F719EBDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2536B78210BA8471F9D72650A15BC203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA452E0601727E00706F2849BD52779E /* Pods-VascoLive-VascoLiveUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54676A8855FF7E003E076A08DBD147B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56765D988B709A874F34AFF63AB03EAA /* Pods-VascoLiveTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C1A68E175962AD7162C327D3F3748E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DA0BE3D3E1E55E7BD5AD36F4F319AE /* Pods-VascoLive-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB3C9C7172B04009A797843043FA22F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VascoLive";
+			target = E28608B7DFDAB9BAB745B8E3D6608B30 /* Pods-VascoLive */;
+			targetProxy = F7FDF609562DE4B33B8858F9FF370628 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03722B8BFDDE459AA26701CA992BBE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C00BEFCE031F7C9C1F23895EC4063D8 /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B868AACC729A19888C357FEE7931F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD09440C1293B2CA5F76C70D1829219 /* Pods-VascoLiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93A7D0F52A27472E30FCD9DE635900FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71967342AA0E52E41EA825A3C29D187 /* Pods-VascoLiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA7BB78F3B1720F52DC1039A78120060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6754126F97E77E11144CA58F52848F99 /* Pods-VascoLive.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLive/Pods-VascoLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLive/Pods-VascoLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E385C6E75A695D6574FF5242B45878CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A4071ED129C618C253F6F7C5F0DD20 /* Pods-VascoLive.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLive/Pods-VascoLive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLive/Pods-VascoLive.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA04BC47F6248A62BAA2084D5BDC02DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77484662951480DC945A0890B46537D9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		268E43266B939552B0642D62A2471E2A /* Build configuration list for PBXNativeTarget "Pods-VascoLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A7D0F52A27472E30FCD9DE635900FE /* Debug */,
+				0B868AACC729A19888C357FEE7931F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5C026ED62BBFE3380CD257EEFAEB20 /* Debug */,
+				E873CA97BD124B21839AF13C9BE1CD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D78076C0CE2A3D0BEB1D4B4E9D4234 /* Build configuration list for PBXNativeTarget "Pods-VascoLive-VascoLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA04BC47F6248A62BAA2084D5BDC02DE /* Debug */,
+				03722B8BFDDE459AA26701CA992BBE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF964BD9477B4BC4014B8A3644689C2 /* Build configuration list for PBXNativeTarget "Pods-VascoLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA7BB78F3B1720F52DC1039A78120060 /* Debug */,
+				E385C6E75A695D6574FF5242B45878CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

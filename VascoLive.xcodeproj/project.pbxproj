@@ -14,6 +14,9 @@
 		4079DE4B2B0522670017B41B /* VascoLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079DE4A2B0522670017B41B /* VascoLiveTests.swift */; };
 		4079DE552B0522670017B41B /* VascoLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079DE542B0522670017B41B /* VascoLiveUITests.swift */; };
 		4079DE572B0522670017B41B /* VascoLiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4079DE562B0522670017B41B /* VascoLiveUITestsLaunchTests.swift */; };
+		5786BF99F6BB417F845390ED /* Pods_VascoLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3518585B4FAB81B18D7B4346 /* Pods_VascoLiveTests.framework */; };
+		79239324CD31313A9DCE8D6A /* Pods_VascoLive_VascoLiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B8A6AB6CACCED1B42E397A /* Pods_VascoLive_VascoLiveUITests.framework */; };
+		DCD55D5C378720B6C2BD79F0 /* Pods_VascoLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9706B2639328A93172C2FD /* Pods_VascoLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B8A6AB6CACCED1B42E397A /* Pods_VascoLive_VascoLiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascoLive_VascoLiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26504D037B8686853A0576B9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLive-VascoLiveUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3518585B4FAB81B18D7B4346 /* Pods_VascoLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascoLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4079DE362B0522650017B41B /* VascoLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VascoLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4079DE392B0522650017B41B /* VascoLiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascoLiveApp.swift; sourceTree = "<group>"; };
 		4079DE3B2B0522650017B41B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,12 @@
 		4079DE502B0522670017B41B /* VascoLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VascoLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4079DE542B0522670017B41B /* VascoLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascoLiveUITests.swift; sourceTree = "<group>"; };
 		4079DE562B0522670017B41B /* VascoLiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascoLiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6148A9360B8189705EA9242E /* Pods-VascoLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLive.debug.xcconfig"; path = "Target Support Files/Pods-VascoLive/Pods-VascoLive.debug.xcconfig"; sourceTree = "<group>"; };
+		659CB7B59B5E1B2A25628746 /* Pods-VascoLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLive.release.xcconfig"; path = "Target Support Files/Pods-VascoLive/Pods-VascoLive.release.xcconfig"; sourceTree = "<group>"; };
+		9CFC43B65C57A3B962AE0471 /* Pods-VascoLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLiveTests.release.xcconfig"; path = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD9706B2639328A93172C2FD /* Pods_VascoLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascoLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67321F1DCC9699D0A2AA79D /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLive-VascoLiveUITests.release.xcconfig"; path = "Target Support Files/Pods-VascoLive-VascoLiveUITests/Pods-VascoLive-VascoLiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBF99F1A9CA74FEBF112E5C /* Pods-VascoLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascoLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-VascoLiveTests/Pods-VascoLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD55D5C378720B6C2BD79F0 /* Pods_VascoLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5786BF99F6BB417F845390ED /* Pods_VascoLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79239324CD31313A9DCE8D6A /* Pods_VascoLive_VascoLiveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB3C0BD87B7C3B139EF8C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9706B2639328A93172C2FD /* Pods_VascoLive.framework */,
+				20B8A6AB6CACCED1B42E397A /* Pods_VascoLive_VascoLiveUITests.framework */,
+				3518585B4FAB81B18D7B4346 /* Pods_VascoLiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4079DE2D2B0522650017B41B = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,8 @@
 				4079DE492B0522670017B41B /* VascoLiveTests */,
 				4079DE532B0522670017B41B /* VascoLiveUITests */,
 				4079DE372B0522650017B41B /* Products */,
+				9F7FC830C87E9B69A7CD0038 /* Pods */,
+				3AB3C0BD87B7C3B139EF8C27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = VascoLiveUITests;
 			sourceTree = "<group>";
 		};
+		9F7FC830C87E9B69A7CD0038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6148A9360B8189705EA9242E /* Pods-VascoLive.debug.xcconfig */,
+				659CB7B59B5E1B2A25628746 /* Pods-VascoLive.release.xcconfig */,
+				26504D037B8686853A0576B9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */,
+				D67321F1DCC9699D0A2AA79D /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */,
+				EEBF99F1A9CA74FEBF112E5C /* Pods-VascoLiveTests.debug.xcconfig */,
+				9CFC43B65C57A3B962AE0471 /* Pods-VascoLiveTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4079DE5A2B0522670017B41B /* Build configuration list for PBXNativeTarget "VascoLive" */;
 			buildPhases = (
+				903F79AE23107CE5D57252F6 /* [CP] Check Pods Manifest.lock */,
 				4079DE322B0522650017B41B /* Sources */,
 				4079DE332B0522650017B41B /* Frameworks */,
 				4079DE342B0522650017B41B /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4079DE5D2B0522670017B41B /* Build configuration list for PBXNativeTarget "VascoLiveTests" */;
 			buildPhases = (
+				D4A74D1F54683D483017727D /* [CP] Check Pods Manifest.lock */,
 				4079DE422B0522670017B41B /* Sources */,
 				4079DE432B0522670017B41B /* Frameworks */,
 				4079DE442B0522670017B41B /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4079DE602B0522670017B41B /* Build configuration list for PBXNativeTarget "VascoLiveUITests" */;
 			buildPhases = (
+				9D1AC76EAFA2A85F67FF44EF /* [CP] Check Pods Manifest.lock */,
 				4079DE4C2B0522670017B41B /* Sources */,
 				4079DE4D2B0522670017B41B /* Frameworks */,
 				4079DE4E2B0522670017B41B /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		903F79AE23107CE5D57252F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascoLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D1AC76EAFA2A85F67FF44EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascoLive-VascoLiveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A74D1F54683D483017727D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascoLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4079DE322B0522650017B41B /* Sources */ = {
@@ -416,6 +529,7 @@
 		};
 		4079DE5B2B0522670017B41B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6148A9360B8189705EA9242E /* Pods-VascoLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +559,7 @@
 		};
 		4079DE5C2B0522670017B41B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659CB7B59B5E1B2A25628746 /* Pods-VascoLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +589,7 @@
 		};
 		4079DE5E2B0522670017B41B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBF99F1A9CA74FEBF112E5C /* Pods-VascoLiveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +610,7 @@
 		};
 		4079DE5F2B0522670017B41B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CFC43B65C57A3B962AE0471 /* Pods-VascoLiveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +631,7 @@
 		};
 		4079DE612B0522670017B41B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26504D037B8686853A0576B9 /* Pods-VascoLive-VascoLiveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		4079DE622B0522670017B41B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67321F1DCC9699D0A2AA79D /* Pods-VascoLive-VascoLiveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
